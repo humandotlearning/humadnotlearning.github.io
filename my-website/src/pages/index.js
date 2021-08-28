@@ -13,13 +13,25 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        {/* <div className={styles.buttons}>
+        <div className="d-flex-inline flex-row justify-content-between">
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            className={clsx('button button--secondary', styles.buttons)}
+            // style={{margin: "1rem"}}
+            to="https://github.com/humandotlearning">
+            github
           </Link>
-        </div> */}
+          <Link
+            className={clsx('button button--secondary', styles.buttons)}
+            to="/docs/intro">
+            linkedin
+          </Link>
+          <Link
+            className={clsx('button button--secondary', styles.buttons)}
+            to="/docs/intro">
+            twitter
+          </Link>
+        </div>
+        
       </div>
     </header>
   );
@@ -30,10 +42,10 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="nithin varghese personal site and blog <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomepageFeatures /> 
       </main>
     </Layout>
   );

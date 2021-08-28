@@ -3,8 +3,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'nithin\'s tinyverse',
-  tagline: 'Building AI products',
+  title: 'Nithin Varghese',
+  tagline: 'Building meaningful AI products',
   url: 'https://humandotlearning.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -20,18 +20,18 @@ module.exports = {
         src: 'img/favicon.jpeg',
       },
       items: [
-        // {
-        //   type: 'doc',
-        //   docId: 'intro',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
-        // {to: '/blog', label: 'Blog', position: 'left'},
-        // {
-        //   href: 'https://github.com/humandotlearning',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Tutorial',
+        },
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://drive.google.com/file/d/1MkVmRp5GeQJQJq5F3O5ibqHGBbS7Ssj0/view?usp=sharing',
+          label: 'Resume',
+          position: 'right',
+        },
       ],
     },
     footer: {

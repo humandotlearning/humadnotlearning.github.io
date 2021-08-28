@@ -1,4 +1,5 @@
-# editing website 
+> NOTE: don't mix package managers (yarn and npm in this case)
+# initialising website ( only needed at creation time )
 
 ```
 cd my-website
