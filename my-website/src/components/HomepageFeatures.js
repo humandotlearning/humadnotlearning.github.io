@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/invisibility.gif').default,
     description: (
       <>
-        I am a computer vision engineer with 2.5+ years of industry experience, during which I have handled all sorts of computer vision use-cases (end-to-end) from mask/helmet detection, crowd counting, social distance detection, Face recognition etc. I also have handled teams to help build computer vision pipelines to improve the accuracy and efficiency of deep learning model inference.
+        I am a <b>computer vision engineer</b> with 2.5+ years of industry experience, during which I have handled all sorts of computer vision use-cases (end-to-end) from <b>mask/helmet detection, crowd counting, social distance detection, Face recognition</b> etc. I also have <b>lead teams</b> to help build computer vision pipelines to improve the accuracy and efficiency of deep learning model inference.
 
       
       </>
