@@ -4,46 +4,51 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'About Me',
+    Svg: require('../../static/img/invisibility.gif').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I am a computer vision engineer with 2.5+ years of industry experience, during which I have handled all sorts of computer vision use-cases (end-to-end) from mask/helmet detection, crowd counting, social distance detection, Face recognition etc. I also have handled teams to help build computer vision pipelines to improve the accuracy and efficiency of deep learning model inference.
+
+      
       </>
     ),
   },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  // {
+  //   title: 'Focus on What Matters',
+  //   Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+  //   description: (
+  //     <>
+  //       Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+  //       ahead and move your docs into the <code>docs</code> directory.
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: 'Powered by React',
+  //   Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+  //   description: (
+  //     <>
+  //       Extend or customize your website layout by reusing React. Docusaurus can
+  //       be extended while reusing the same header and footer.
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    // <div className={clsx('col col--4')}>
+    <div className={clsx('col--5 align-self-center')}>
+
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        {/* uncomment to place an svg image from the above config  */}
+        {/* <Svg className={styles.featureSvg} alt={title} /> */}
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        <img className={styles.featureSvg} alt={title} src={Svg}/>
       </div>
     </div>
   );

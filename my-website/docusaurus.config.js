@@ -20,12 +20,12 @@ module.exports = {
         src: 'img/favicon.jpeg',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
-        },
+        // {
+        //   type: 'doc',
+        //   docId: 'intro',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://drive.google.com/file/d/1MkVmRp5GeQJQJq5F3O5ibqHGBbS7Ssj0/view?usp=sharing',
@@ -37,15 +37,15 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
+        // {
+        //   title: 'Docs',
+        //   items: [
+            // {
+            //   label: 'Tutorial',
+            //   to: '/docs/intro',
+            // },
+        //   ],
+        // },
         {
           title: 'Social',
           items: [
@@ -57,6 +57,10 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/call_me_Nithin',
             },
+            {
+              label: 'github',
+              href: 'https://github.com/humandotlearning',
+            }
           ],
         },
         {
@@ -67,9 +71,17 @@ module.exports = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/humandotlearning',
+              label: 'Tutorial',
+              to: '/docs/intro',
             },
+            {
+              label: 'resume',
+              href: 'https://drive.google.com/file/d/1MkVmRp5GeQJQJq5F3O5ibqHGBbS7Ssj0/view?usp=sharing',
+            },
+            // {
+            //   label: 'GitHub',
+            //   href: 'https://github.com/humandotlearning',
+            // },
           ],
         },
       ],
