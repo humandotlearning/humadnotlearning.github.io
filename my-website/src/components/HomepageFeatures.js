@@ -48,6 +48,7 @@ function Feature({Svg, title, description}) {
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        <br></br><br></br>
         <img className={styles.featureSvg} alt={title} src={Svg}/>
       </div>
     </div>
